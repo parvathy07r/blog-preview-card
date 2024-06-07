@@ -12,6 +12,11 @@
 
     body {
       background-color: hsl(47, 88%, 63%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      
       
     }
 
@@ -22,21 +27,50 @@
   border-radius: 10px; 
   display: flex;
   flex-direction: column;
+  width: 325px;
+  margin: 0 auto;
+  column-gap: 10px;
+  
   
 }
 
 .wrapper > div {
-  border: 1px solid black;
-  
+  margin: 10px;
 }
 
+
+
 .box-style > h4  {
-  border: 1px solid black;
+  border: none;
   background-color: hsl(47, 88%, 63%)  ;
+  padding: 10px;
+  width: 65px;
+  border-radius: 10%;
 }
 
 .box-style > p {
-  border: 1px solid black;
+  
+  margin: 0;
+}
+
+.paragraph-style {
+  color: hsl(0, 0%, 50%);
+}
+
+img {
+  width:300px;
+  border-radius: 10px;
+}
+h2 {
+  margin: 0;
+}
+
+h2:hover {
+  color: hsl(47, 88%, 63%) ;
+}
+
+p{
+  margin: 0px;
 }
   </style>
 </head>
@@ -54,7 +88,7 @@
       <h2>HTML & CSS foundations</h2>
   
     </div>
-    <div>
+    <div class="paragraph-style">
       <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
     </div>
    
